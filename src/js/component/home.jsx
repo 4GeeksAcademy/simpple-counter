@@ -4,7 +4,9 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+export class Home extends React.Component{
+    
+    render(){
 	return (
 		<div className="text-center">
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
@@ -21,6 +23,6 @@ const Home = () => {
 			</p>
 		</div>
 	);
-};
+}
 
-export default Home;
+}
